@@ -1,0 +1,146 @@
+body {
+    background-color: #ffffff;
+    color: #0f141e;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+/* Ссылки */
+a {
+    color: black;
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active {
+    color:blue;
+}
+a:visited {
+    color: purple;
+}
+/* Фотка */
+.avatar{
+    width: 320px;
+    border-radius: 20px;
+    box-shadow: 10px 4px 14px rgba(0,0,0,0.25);
+}
+/* Текст */
+ .info p { 
+    color: #010a18;
+    margin: 0%;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+@media (max-widht: 700px) {
+    .info {
+        display:block;
+        text-align: center;
+    }
+
+}
+.info-text {
+    margin-left: 40px;
+}
+.info-text h4{
+    margin-bottom: 10px;
+}
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+.bg-yellow {
+   background: #fff9dc; 
+}
+.bg-green {
+    background: #e5ffe7; 
+ } 
+.bg-red {
+    background: #ffe5e5; 
+ }
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.card h2{
+    margin-bottom: 10px;
+}
+.list {
+    padding: 0 20px;
+}
+    /* list-style: none; */
+.list li {
+    color: 86896f;
+    margin-bottom: 10px;
+}
+.table {
+     width: 100%;
+}
+.table td {
+    padding-bottom: 10px;
+}
+/* Псевдоселектор nth-child */
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: grey;
+}
+.link   {
+    /* list-style: lower-roman url("../img/shape.png") outside; */
+    padding: 0;
+    list-style: none;
+}
+.link li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+.contact h2 {
+    text-align: center;
+}
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: grey; 
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    /* background: transparent; */
+    border-bottom: 1PX solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+.raw {
+    display: flex;
+    margin-bottom: 20px;
+}
+.raw > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+.raw > .form-group:first-child {
+    margin-right: 20px;
+}
+.btm {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    border:  none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btm:hover {
+    opacity: 0.9;
+}
